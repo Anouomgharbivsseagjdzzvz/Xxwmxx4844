@@ -1,0 +1,12 @@
+technique_id,technique_description,tactic_description,matched_malicious_indicators_count,matched_suspicious_indicators_count,matched_informative_indicators_count
+T1168,"Local Job Scheduling",Execution,0,1,0
+T1204,"User Execution",Execution,0,1,1
+T1059,"Command-Line Interface",Execution,0,0,1
+T1168,"Local Job Scheduling",Persistence,0,1,0
+T1179,Hooking,Persistence,0,0,3
+T1179,Hooking,"Privilege Escalation",0,0,3
+T1112,"Modify Registry","Defense Evasion",0,0,1
+T1179,Hooking,"Credential Access",0,0,3
+T1010,"Application Window Discovery",Discovery,0,0,1
+T1114,"Email Collection",Collection,0,1,0
+T1043,"Commonly Used Port","Command and Control",0,1,0
